@@ -40,10 +40,7 @@ export default function Searchbox() {
     
 
   return (
-    <div className='top-bar'>
-        <div className="align-item-center">
-                <h1>Weather-app</h1>
-            </div> 
+    <div className='top-bar'> 
         <div div className="container my-5 "height="100%" widht="100%" >
         <div className="row d-flex justify-content-evenly">  
         

@@ -40,13 +40,12 @@ export default function Searchbox() {
     
 
   return (
-    <div className='top-bar'>
-        <div className="align-item-center">
-                <h1>Weather-app</h1>
-            </div> 
+    <div className='top-bar'> 
         <div div className="container my-5 "height="100%" widht="100%" >
         <div className="row d-flex justify-content-evenly">  
-        
+        <div className="col-md-3">
+                <h1>Weather</h1>
+            </div>
                     <form className="form-inline d-flex col-md-3" onSubmit={formSubmit} >
                         <button className="btn btn-outline-danger my-2 my-sm-0" onClick={handleClick} type="submit" >Search</button>
                         <input className="form-control mr-sm-2" value={city} onChange={handleChange}  type="text" placeholder="Enter your city name"/>
@@ -56,7 +55,7 @@ export default function Searchbox() {
     </div>
     <h1 className='heading'>{city}</h1>
     <div className='home' color='white'>
-    <div className="container justify-content-center "  height="100%" widht="100%" max-height="40vh">
+    <div className="container justify-content-center bg-white opacity-"  height="100%" widht="100%" max-height="40vh">
         <div className="d-flex justify-content-between">
             <div className="col-md-3" color='white'>
                 <h5>Temperature</h5>

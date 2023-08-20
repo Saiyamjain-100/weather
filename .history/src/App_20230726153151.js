@@ -20,9 +20,8 @@ export default function App() {
     <div style={myStyle}>
       <Router>
       <Routes>
-        <Route path="weather-app" element={<Searchbox/>}/>
-      </Routes>
-      </Router>
+        <Route path=" " element={<Searchbox/>}/>
+      </Routes></Router>
     </div>
   )
 }

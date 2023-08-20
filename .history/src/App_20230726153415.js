@@ -21,8 +21,7 @@ export default function App() {
       <Router>
       <Routes>
         <Route path="weather-app" element={<Searchbox/>}/>
-      </Routes>
-      </Router>
+      </Routes></Router>
     </div>
   )
 }

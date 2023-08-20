@@ -41,7 +41,7 @@ export default function Searchbox() {
 
   return (
     <div className='top-bar'>
-        <div className="align-item-center">
+        <div className="align-itementer">
                 <h1>Weather-app</h1>
             </div> 
         <div div className="container my-5 "height="100%" widht="100%" >
